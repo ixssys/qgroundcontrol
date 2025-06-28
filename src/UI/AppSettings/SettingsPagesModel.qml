@@ -85,7 +85,7 @@ ListModel {
         name: qsTr("Remote ID")
         url: "qrc:/qml/QGroundControl/AppSettings/RemoteIDSettings.qml"
         iconUrl: "qrc:/qmlimages/RidIconManNoID.svg"
-        pageVisible: function() { return true }
+        pageVisible: function() { return QGroundControl.settingsManager.remoteIDSettings.enable.rawValue }
     }
 
     ListElement {
