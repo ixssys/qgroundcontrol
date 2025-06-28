@@ -23,7 +23,7 @@ jobs:
       - name: Install Qt for Linux
         uses: jurplel/install-qt-action@v4
         with:
-          version: 6.8.3
+          version: 6.8.4
           cache: true
 
       - name: Update translation files
